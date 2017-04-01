@@ -25,7 +25,7 @@ public class SecondActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         width = extras.getDouble("MainNumber");
-        length = extras.getDouble("MainName");4
+        length = extras.getDouble("MainName");
         area = width * length;
         resultView.setText("Width is " + width + " and length is " + length + " and flooring needed is " + area);
 
